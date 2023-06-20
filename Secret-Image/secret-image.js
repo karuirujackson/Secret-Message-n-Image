@@ -1,5 +1,6 @@
 /* secret-image.js */
-import {toggleHiddenElement, changeToFunkyColor} from '../Modules/dom.functions.js'
+import domFunctions from '../modules/dom-functions.js';
+const { toggleHiddenElement, changeToFunkyColor } = domFunctions;
 
 const buttonElement = document.getElementById('secret-button');
 const imgElement = document.getElementById('secret-img');
